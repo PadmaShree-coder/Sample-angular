@@ -10,6 +10,7 @@ export class UserComponent {
   text = 'user page';
   users;
 
+
   constructor(private userService: UserService) {
     this.users = this.userService.getUsers();
   }
